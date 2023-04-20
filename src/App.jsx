@@ -1,5 +1,6 @@
 import { createRoot } from "react-dom/client";
 import Pet from "./Pet";
+import { BrowserRouter } from "react-router-dom";
 
 const App = () => {
   return (
