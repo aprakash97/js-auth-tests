@@ -2,10 +2,17 @@ import { combineReducers, createStore } from "redux";
 import itemsReducer from "./items/reducer";
 // import tipPercentageReducer from './tip-percentage/reducer';
 
-const reducer = combineReducers({
-  items: itemsReducer,
-  // tipPercentage: tipPercentageReducer
-});
+// const reducer = combineReducers({
+//   items: itemsReducer,
+//   // tipPercentage: tipPercentageReducer
+// });
+
+const reducer = (state = {}, action) => {
+  return {
+    ...state,
+    items: itemsReducer(state.items, action),
+  };
+};
 
 const store = createStore(
   reducer,
