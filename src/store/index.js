@@ -1,5 +1,5 @@
 import { combineReducers, createStore } from "redux";
-import itemsReducer from "./items/reducer";
+import usersReducer from "./users/reducer";
 // import tipPercentageReducer from './tip-percentage/reducer';
 
 // const reducer = combineReducers({
@@ -10,7 +10,7 @@ import itemsReducer from "./items/reducer";
 const reducer = (state = {}, action) => {
   return {
     ...state,
-    items: itemsReducer(state.items, action),
+    users: usersReducer(state.users, action),
   };
 };
 
