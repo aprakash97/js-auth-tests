@@ -7,4 +7,4 @@ const mapStateToProps = (state) => {
   };
 };
 
-export const MenuItemsContainer = connect(mapStateToProps)(UserList);
+export const UserListContainer = connect(mapStateToProps)(UserList);

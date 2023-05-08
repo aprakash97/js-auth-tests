@@ -1,9 +1,9 @@
-import { MenuItemsContainer } from "./MenuItemsContainer";
+import { UserListContainer } from "./UserListContainer";
 
 const Home = () => {
   return (
     <div>
-      <MenuItemsContainer />
+      <UserListContainer />
     </div>
   );
 };
