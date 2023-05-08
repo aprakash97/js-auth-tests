@@ -8,5 +8,6 @@ export const UserList = ({ users }) => {
         <UserContainer {...user} key={user.userID} />
       ))}
     </div>
+    
   );
 };
