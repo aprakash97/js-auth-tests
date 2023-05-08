@@ -1,6 +1,6 @@
 // import { Box, Button, Card, Heading } from "@twilio-paste/core";
 
-const MenuItem = ({ uuid, name, email, remove = () => {} }) => {
+const User = ({ uuid, name, email, remove = () => {} }) => {
   return (
     <div className="child">
       <div>
@@ -14,4 +14,4 @@ const MenuItem = ({ uuid, name, email, remove = () => {} }) => {
   );
 };
 
-export default MenuItem;
+export default User;
