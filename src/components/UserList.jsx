@@ -1,10 +1,11 @@
 import User from "./User";
+import { UserContainer } from "../containers/UserContainer";
 
 export const UserList = ({ users }) => {
   return (
     <div className="main">
       {users.map((user) => (
-        <User {...user} key={user.userID} />
+        <UserContainer {...user} key={user.userID} />
       ))}
     </div>
   );
