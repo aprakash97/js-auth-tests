@@ -1,6 +1,6 @@
 import { MenuItemsContainer } from "./MenuItemsContainer";
 
-const Calculator = () => {
+const Home = () => {
   return (
     <div>
       <MenuItemsContainer />
@@ -8,4 +8,4 @@ const Calculator = () => {
   );
 };
 
-export default Calculator;
+export default Home;
