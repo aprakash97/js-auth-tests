@@ -24,12 +24,11 @@ const User = ({ userID, name, email, remove = () => {} }) => {
         </button>
       </div>
       {active ? (
-        <div className="updateForm">
-          <form>
-            <input type="text" value={name} />
-            <input type="email" value={email} />
-          </form>
-        </div>
+        <form>
+          <input type="text" value={name} />
+          <input type="email" value={email} />
+          <button>Submit</button>
+        </form>
       ) : (
         <p></p>
       )}
