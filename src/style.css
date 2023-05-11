@@ -33,6 +33,18 @@ body {
 }
 */
 
+.logoHeader {
+  padding: 10px;
+  display: flex;
+}
+
+.logoHeader img {
+  margin: 5px;
+  max-width: 20vh;
+  max-height: 10vh;
+  border: 2px solid black;
+}
+
 .grid-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
