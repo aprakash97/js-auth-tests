@@ -9,16 +9,14 @@ const User = ({ userID, name, email, remove = () => {} }) => {
   };
 
   return (
-    <div className="child">
+    <div className="grid-item">
       <div>
         {name} - {email}
       </div>
 
       <div>
         {/* <button onClick={update}>Update</button> */}
-        <button className="btn" onClick={handleClick}>
-          Update
-        </button>
+
         <button className="btn" onClick={remove}>
           Remove
         </button>
