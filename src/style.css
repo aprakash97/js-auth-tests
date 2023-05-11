@@ -1,7 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
 body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background: rgb(2, 0, 36);
+  background: radial-gradient(
+    circle,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 35%,
+    rgba(3, 153, 216, 1) 81%,
+    rgba(0, 212, 255, 1) 100%
+  );
 }
 
 /* .main {
@@ -22,15 +31,19 @@ body {
   justify-content: space-between;
   padding: 1vh;
 }
-
-.btn {
-  margin: 0 2vh;
-} */
+*/
 
 .grid-container {
   display: grid;
-  grid-template-columns: auto;
-  background-color: #2196f3;
+  grid-template-columns: 1fr 1fr;
+  background: rgb(2, 0, 36);
+  background: radial-gradient(
+    circle,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 35%,
+    rgba(3, 153, 216, 1) 81%,
+    rgba(0, 212, 255, 1) 100%
+  );
   padding: 10px;
 }
 .grid-item {
@@ -45,4 +58,18 @@ body {
   color: #9d2828;
   background-color: azure;
   text-align: center;
+  width: 200%;
+}
+
+.contents {
+  display: block;
+  font-family: "Rubik", sans-serif;
+}
+
+.btn {
+  position: relative;
+}
+
+.date {
+  margin-top: 2vh;
 }
